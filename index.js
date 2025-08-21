@@ -32,8 +32,19 @@ Nutricionista.prototype = Object.create(Pessoa.prototype);
 Nutricionista.prototype.constructor = Nutricionista;
 
 function renderizaResultadoIMC(nutricionista) {
+    var imcValor = nutricionista.imc();
+    var classificacao = nutricionista.classificaIMC();
+    var linhas = document.querySelectorAll("#tabela-imc tbody tr");
+
     document.getElementById("imc").innerText =
-        nutricionista.imc().toFixed(2) + " - " + nutricionista.classificaIMC();
+        imcValor.toFixed(2) + " - " + classificacao;
+
+    linhas.forEach(function (tr) {
+        tr.classList.remove("destaque");
+        if (tr.getAttribute("data-classificacao") === classificacao) {
+            tr.classList.add("destaque");
+        }
+    });
 }
 
 function actionCalcularIMCBuilder() {

@@ -1,3 +1,18 @@
+/* Tabela de IMC */
+.tabela-imc {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+.tabela-imc th, .tabela-imc td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+.tabela-imc tr.destaque {
+  background-color: #ffe082;
+  font-weight: bold;
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   .container {
