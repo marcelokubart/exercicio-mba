@@ -19,6 +19,7 @@ A partir do projeto desenvolvido em conjunto na aula ([repositório base](https:
 - Filipe Monteiro <filipe.monteiro@aluno.faculdadeimpacta.com.br>
 - Gabriel Martins Paz <gabriel.paz@aluno.faculdadeimpacta.com.br>
 - João Victor Braga <joao.soares@aluno.faculdadeimpacta.com.br>
+- José Vitor Silva - <jose.svitor@aluno.faculdadeimpacta.com.br>
 - Marcelo Almeida Josef Kubart <marcelo.kubart@aluno.faculdadeimpacta.com.br>
 - Paulo Cesar  <paulo.hora@aluno.faculdadeimpacta.com.br>
 - Rafael Barros de Almeida e Silva <rafael.abarros@aluno.faculdadeimpacta.com.br>
